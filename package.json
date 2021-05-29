@@ -4,7 +4,7 @@
   "description": "Design Patterns implementations",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest src/*.ts"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,10 @@
     "url": "https://github.com/c88lopez/DP/issues"
   },
   "homepage": "https://github.com/c88lopez/DP#readme",
-  "dependencies": {
-    "jest": "^27.0.3"
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
   }
 }
