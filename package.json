@@ -1,0 +1,22 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Design Patterns implementations",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/c88lopez/DP.git"
+  },
+  "keywords": [
+    "design-patterns"
+  ],
+  "author": "Cristian Lopez <c88lopez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c88lopez/DP/issues"
+  },
+  "homepage": "https://github.com/c88lopez/DP#readme"
+}
