@@ -7,7 +7,7 @@ test.each([
     [-1, -1, 1],
     [-1, 1, -1],
     [0, 1, 0],
-    [0, 0, 0],
-])('multiplicate %i * %i to equal %i', (a, b, expected) => {
+    [1, 0, 0],
+])('product %i * %i to equal %i', (a, b, expected) => {
   expect(prod(a, b)).toEqual(expected);
 });
