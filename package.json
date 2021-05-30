@@ -19,7 +19,7 @@
     "url": "https://github.com/c88lopez/DP/issues"
   },
   "homepage": "https://github.com/c88lopez/DP#readme",
-  "devDependencies": {
+  "dependencies": {
     "@types/jest": "^26.0.23",
     "jest": "^27.0.3",
     "ts-node": "^10.0.0",
