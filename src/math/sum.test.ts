@@ -1,5 +1,12 @@
 const { sum } = require('./sum');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test.each([
+  [3, 4, -1],
+  [1, 2, -1],
+  [2, 1, 1],
+  [1, 1, 0],
+  [0, 1, -1],
+  [0, 0, 0],
+])('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toEqual(3);
 });
