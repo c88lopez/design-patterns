@@ -6,5 +6,5 @@ test.each([
     [2, 1, 2],
     [3, 4, 81],
 ])('exponent %i ^ %i to equal %i', (a, b, expected) => {
-  expect(exp(a, b)).toEqual(expected);
+    expect(exp(a, b)).toEqual(expected);
 });
