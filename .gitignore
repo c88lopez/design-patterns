@@ -1,6 +1,7 @@
 .idea/
 
-src/*.js
-
 node_modules/
 coverage/
+built/
+
+*.js
