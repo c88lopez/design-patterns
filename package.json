@@ -4,7 +4,7 @@
   "description": "Design Patterns implementations",
   "main": "index.js",
   "scripts": {
-    "test": "jest src/**/*.ts"
+    "test": "jest src/"
   },
   "repository": {
     "type": "git",
