@@ -4,7 +4,8 @@
   "description": "Design Patterns implementations",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config=jest.config.ts src/"
+    "test": "jest --config jest.config.ts src/",
+    "test:watch": "jest --config jest.config.ts --watch src/"
   },
   "repository": {
     "type": "git",
